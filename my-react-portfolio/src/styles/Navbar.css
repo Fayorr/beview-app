@@ -20,13 +20,14 @@ nav.active {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 nav h2 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #fff;
 }
 
 .menu-icon {
     display: block;
     transition: all 1000ms ease;
+    font-size: 1.3rem;
 }
 
 .nav-item {
