@@ -26,17 +26,17 @@ setToggle(!toggle)
     <div>
       <nav className={nav ? "nav active" : "nav"}>
         <div>
-          <a href="#">
+          <a href="#hom">
             <img src={logo} alt="" className="logo" />
           </a>
           <ul className={toggle ? 'nav-menu active' : 'nav-menu'}>
-            <li className="nav-item"><a href='#articles' className="nav-links" target='_blank'>Home</a></li>
+            <li className="nav-item"><a href='#home' className="nav-links" target='_blank'>Home</a></li>
 
-            <li className="nav-item"><a href='#chats' className="nav-links" target='_blank'>About</a></li>
+            <li className="nav-item"><a href='#about' className="nav-links" target='_blank'>About</a></li>
 
-            <li className="nav-item"><a href='#awards' className="nav-links" target='_blank'>Products</a></li>
+            <li className="nav-item"><a href='#products' className="nav-links" target='_blank'>Products</a></li>
 
-            <li className="nav-item"><a href='#roadmap' className="nav-links" target='_blank'>Roadmaps</a></li>
+            <li className="nav-item"><a href='#roadmaps' className="nav-links" target='_blank'>Roadmaps</a></li>
             <li className="nav-item"><a href='#contact' className="nav-links" target='_blank'>Contact</a></li>
           </ul>
          
