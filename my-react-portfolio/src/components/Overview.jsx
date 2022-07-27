@@ -2,6 +2,7 @@ import React from 'react';
 import "../styles/Overview.css";
 import "../App.css";
 import Button from "./Button";
+import Banner from "../assets/banner.png"
 
 const Overview = () =>{
 
@@ -29,7 +30,7 @@ const Overview = () =>{
             </div>
           </div>
           <div className="first-section-img">
-            <img src="https://beview.co/left-banner.png" alt="banner" />
+            <img src={Banner} alt="banner" />
           </div>
         </section>
     )

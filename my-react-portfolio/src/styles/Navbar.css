@@ -99,13 +99,27 @@ color: #fff;
     cursor: pointer;
 }
 
+@media only screen and (min-width: 460px) and (max-width: 520px) {
+    
+}
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 521px) and (max-width: 768px) {
+   
+}
+
+@media (min-width: 769px) {
+  .nav-menu{
+    width: 100%;
+  } 
+}
+
+
+@media screen and (min-width: 900px) {
 
     nav {
         display: flex;
         justify-content: space-between;
-        padding: .5rem 8rem;
+        padding: .5rem 6rem;
     }
 
     nav div {
@@ -118,19 +132,19 @@ color: #fff;
         display: flex;
         justify-content: space-between;
         padding: 0;
-        /* width: 100%; */
     }
 .nav-menu.active {
     display: flex;
 }
     .nav-menu {
         display: flex;
-        width: 40%;
+        width: 50%;
         flex-direction: row;
         position: inherit;
         justify-content: space-evenly;
         height: 100%;
         padding: .5rem .8rem;
+        background-color: red;
     }
 
     nav .nav-item {

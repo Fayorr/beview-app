@@ -22,9 +22,7 @@
 .button-container {
     display: flex;
     justify-content: space-between;
-    width: 72%;
-
-
+    max-width: 83vw;
 }
 
 .btn-wine {
@@ -55,10 +53,6 @@
 .btn-wine {
     background-color: #DC045D;
 }
-/* .btn-wine a{
-    width: 100%;
-    border: 20px solid #DC045D;
-} */
 .btn-wine:active,
 .btn-wine:hover {
     background-color: #fff;
@@ -67,35 +61,50 @@
     color: #151C2B;
     transition: 500ms ease;
 }
-
-
-
 .first-section-img {
     margin: 8rem 0;
     padding: 1.5rem 0;
     border: 2px solid #1E2739;
     display: flex;
 }
-
 .first-section-img img {
     width: 90%;
     margin: 0 auto;
 }
-@media(min-width: 790px) {
+@media only screen and (min-width: 460px) and (max-width: 520px) {
+    .button-container {
+            width: 60%;
+}
+}
+@media only screen and (min-width: 521px) and (max-width: 768px) {
+    .button-container {
+        width: 50%;
+    }
+}
+@media (min-width: 769px) {
     .first-section {
-        margin-top: 2rem;
+        margin-top: 10rem;
+    }
+    .beview{
+        width: 90%;
+    }
+    .button-container {
+        width: 20%;
     }
 }
 
 @media (min-width: 900px) {
-        .first-section {
+    .first-section {
         display: flex;
         align-items: center;
         padding: 4rem;
-        margin-top: 6rem;
+        margin-top: -3.5rem;
         transition: all 500ms ease-in;
     }
-        .beview {
-            width: 50%;
-}
+    .beview {
+        width: 50%;
+    }
+    .button-container{
+        width: 63%;      
+    }
 }
