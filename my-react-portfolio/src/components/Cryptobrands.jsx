@@ -1,12 +1,13 @@
 import React from 'react'
 import "../styles/Cryptobrands.css"
+import insurance from "../assets/insurance.png"
 
 const Cryptobrands = () => {
     return(
         <section className="third-section">
           <div className="c-brand-container">
             <img
-              src="https://beview.co/assets/img/icon/secure.png"
+              src={insurance}
               alt="icon"
             />
             <div className="c-brand">
@@ -24,7 +25,7 @@ const Cryptobrands = () => {
           </div>
           <div className="c-users-container">
             <img
-              src="https://beview.co/assets/img/icon/insurance.png"
+              src={insurance}
               alt="insurance-icon"
             />
             <div className="c-users">

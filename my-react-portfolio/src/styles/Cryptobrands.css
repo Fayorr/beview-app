@@ -5,8 +5,8 @@
 }
 
 .c-users-container img {
-    height: 6.5vh;
-    margin: .5rem;
+height: 6rem;
+    width: 6rem;
 }
 
 .c-users {
@@ -31,8 +31,10 @@
 }
 
 .c-brand-container img {
-    height: 6.5vh;
-    margin: .5rem;
+    height: 6rem;
+    width: 6rem;
+    margin: 0;
+    padding: 0;
 }
 
 .c-brand {
@@ -54,63 +56,8 @@
 
 
 
-@media(min-width: 790px) {
-    nav img {
-            width: 3vw;
-            margin-left: -5rem;
-        }
-.first-section{
-    margin-top: 10rem;
-}
-        .fifth-section {
-            max-width: 100%;
-            margin: 6rem auto;
-            text-align: center;
-        }
-        .btn-container {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-        }
-.btn-one {
-    width: 160%;
-    border-radius: 6rem;
-    height: 6rem;
-    align-items: center;
-    }
-    .btn-two{
-    width: 160%;
-    margin: 1rem;
-    border-radius: 6rem;
-    height: 6rem;
-    align-items: center;
-    }
-    .btn-one p{
-    width: 100%;
-    }
-    .btn-two p {
-    width: 100%;
-    }
-    .btn-three{
-        height: 30rem;
-    }
-    .six img {
-        margin: 0 auto;
-        justify-content: center;
-        align-self: center;
-        width: 100%;
-        padding: 3rem;
-        
-    }
-}
-@media (min-width: 900px) {
-    .third-section{
-        display: flex;
-        justify-content: center;
-        width: 95%;
-    }
-}
+
+
 
     @media(min-width: 600px) {
         .third-section{
@@ -122,6 +69,22 @@
     .third-section {
         display: flex;
         justify-content: center;
-        width: 95%;
+        width:100%;
+    }
+}
+@media (min-width: 900px) {
+    .third-section {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0 6rem;
+
+    }
+    .c-users {
+        width: 100%;
+    }
+    .c-brand {
+        width: 100%;
+
     }
 }

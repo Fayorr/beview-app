@@ -4,7 +4,11 @@ import Navbar from './components/Navbar'
 import ParticlesComponent from "./components/Particles";
 import Overview from './components/Overview';
 import Hero from "./components/Hero"
+import Cryptobrands from './components/Cryptobrands';
 import About from "./components/About"
+import Rewards from './components/Rewards';
+import Roadmaps from './components/Roadmaps';
+import Contact from './components/Contact';
 import Footer from "./components/Footer"
 
  const App = () => {
@@ -14,10 +18,15 @@ import Footer from "./components/Footer"
       <Navbar />
       <Overview />
       <Hero />
+      <Cryptobrands />
       <About />
+      <Rewards />
+      <Roadmaps />
+      <Contact />
       <Footer />
     </div>
   )
 }
 
-export  default App;
+
+export default App;
