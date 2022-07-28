@@ -4,7 +4,7 @@ import '../styles/Roadmaps.css'
 
 const Roadmaps = () => {
     return(
-        <section className="roadmaps">
+        <section className="roadmaps" id='roadmaps'>
                 <h2>Roadmaps</h2>
                 <div className="wrapper">
                     <div className="center-line"></div>

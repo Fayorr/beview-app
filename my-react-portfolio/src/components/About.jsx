@@ -4,7 +4,7 @@ import world from "../assets/World.png"
 
 const About = () => {
      return (
-          <section className="fourth-section">
+          <section className="fourth-section" id='about'>
           <div>
             <img src={world} alt="world" />
           </div>

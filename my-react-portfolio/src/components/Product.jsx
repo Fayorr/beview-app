@@ -1,9 +1,9 @@
 import React from 'react'
-import "../styles/Rewards.css"
+import "../styles/Product.css"
 
 const Rewards = () => {
     return(
-        <section className="fifth-section">
+        <section className="fifth-section" id='product'>
             <h3>Blockchain Reward System</h3>
             <p>
                 As a decentralized system users and brands are rewarded for their

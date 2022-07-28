@@ -6,7 +6,7 @@ import Overview from './components/Overview';
 import Hero from "./components/Hero"
 import Cryptobrands from './components/Cryptobrands';
 import About from "./components/About"
-import Rewards from './components/Rewards';
+import Product from './components/Product';
 import Roadmaps from './components/Roadmaps';
 import Contact from './components/Contact';
 import Footer from "./components/Footer"
@@ -20,7 +20,7 @@ import Footer from "./components/Footer"
       <Hero />
       <Cryptobrands />
       <About />
-      <Rewards />
+      <Product />
       <Roadmaps />
       <Contact />
       <Footer />
