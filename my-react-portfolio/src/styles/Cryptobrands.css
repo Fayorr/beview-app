@@ -5,8 +5,9 @@
 }
 
 .c-users-container img {
-height: 6rem;
-    width: 6rem;
+height: 4rem;
+    width: 4rem;
+    
 }
 
 .c-users {
@@ -22,17 +23,19 @@ height: 6rem;
 .c-users p {
     color: #AAB2CD;
     line-height: 1.5rem;
+    padding: 0 1.9rem 0 0;
 }
 
 .c-brand-container {
     display: flex;
     justify-content: center;
     margin: 4rem 0;
+    
 }
 
 .c-brand-container img {
-    height: 6rem;
-    width: 6rem;
+height: 4rem;
+    width: 4rem;
     margin: 0;
     padding: 0;
 }
@@ -51,6 +54,7 @@ height: 6rem;
 .c-brand p {
     color: #AAB2CD;
     line-height: 1.5rem;
+    padding: 0 1.9rem 0 0;
 }
 
 
