@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 0 0.5rem;
     color: #ffffff;
-    margin-top: 8.5rem;
+    margin-top: 10rem;
 }
 
 .first-section h1 {
@@ -22,7 +22,7 @@
 .button-container {
     display: flex;
     justify-content: space-between;
-    max-width: 83vw;
+    max-width: 86vw;
 }
 
 .btn-wine {
