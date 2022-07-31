@@ -1,17 +1,19 @@
 footer {
     color: #fff;
-    
+
     height: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.footer h6{
+
+.footer h6 {
     background-color: red;
     width: 50%;
     padding: 5rem 0
 }
+
 .icons {
     display: flex;
     justify-content: space-between;
@@ -24,7 +26,7 @@ footer {
     background-color: #1E2739;
     width: 2.5rem;
     height: 2.5rem;
-    padding: .8rem auto auto 0;
+    padding: .85rem auto auto 0;
     text-align: center;
     border-radius: 50%;
 }
