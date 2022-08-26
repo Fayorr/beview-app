@@ -1,0 +1,153 @@
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #151C2B;
+}
+.logo{
+    width: 18%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E2739;
+    align-items: center;
+    padding: 1.3rem 1.9rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+    
+
+}
+
+nav.active {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav h2 {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.menu-icon {
+    display: block;
+    transition: all 1000ms ease;
+    font-size: 1.3rem;
+}
+
+.nav-item {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-menu {
+    width: 100%;
+    height: 21.5rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #1E2739;
+    transition: 1s cubic-bezier(.68, -0.55, .27, 1.55);
+}
+
+.nav-menu.active {
+    display: block;
+
+}
+
+.nav-item:hover {
+    transform: translateY(-2px);
+    transition: 100ms ease-in;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  
+
+}
+
+.nav-item a {
+    text-decoration: none;
+color: #fff;
+    transition: border-bottom 2s;
+    transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+.btn {
+    display: none;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #FBE850;
+    background-color: #FBE850;
+    color: #000000;
+}
+
+.btn:hover {
+    transition: all .25s ease-in-out;
+    background-color: orange;
+    cursor: pointer;
+}
+
+@media (min-width: 769px) {
+  .nav-menu{
+    width: 100%;
+  } 
+}
+
+
+@media screen and (min-width: 900px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: .5rem 6rem;
+    }
+
+    nav div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+.nav-menu.active {
+    display: flex;
+}
+    .nav-menu {
+        display: flex;
+        width: 50%;
+        flex-direction: row;
+        position: inherit;
+        justify-content: space-evenly;
+        height: 100%;
+        padding: .5rem .8rem;
+    }
+
+    nav .nav-item {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+   
+}

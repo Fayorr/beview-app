@@ -1,0 +1,36 @@
+.fourth-section h2 {
+    font-size: 2.9rem;
+    color: #fff;
+    padding: 0.9rem;
+}
+
+.fourth-section p {
+    color: #AAB2CD;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    padding: 0.9rem;
+}
+
+.fourth-section img {
+    width: 100%;
+}
+
+
+@media (min-width: 900px) {
+
+    .fourth-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fourth-section img {
+        width: 125%;
+        padding: 0;
+        margin-top: -3rem;
+        margin-left: -3rem;
+    }
+
+    .future {
+        width: 40%;
+    }
+}
