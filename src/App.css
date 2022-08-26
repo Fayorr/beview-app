@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-size: 16px;
+}
+
+body {
+    font-size: 16px;
+    color: #fff;
+    height: 300vh;
+}
+
+.btnn {
+    outline: none;
+    border: none;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-align: center;
+    width: 10rem;
+    border-radius: 2rem;
+    background-color: #FFAA17;  
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    border: 2px solid #FFAA17;
+}
+.btnn:active,
+.btnn:hover {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: 500ms ease;
+}
